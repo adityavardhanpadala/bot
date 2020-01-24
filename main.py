@@ -18,7 +18,7 @@ TYPE, REASON = range(2)
 
 def start(bot, context):
     user = bot.message.from_user
-    bot.message.reply_text("Hi @" + user['username'] + "!\n I am chowkidar of amFOSS.")
+    bot.message.reply_text("Hi @" + user['username'] + "!\n I am R2D2 of bi0s.")
     bot.message.reply_text("/help - for more details")
 
 def help(bot, context):
